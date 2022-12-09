@@ -1,3 +1,44 @@
 body {
+  font-family: system-ui;
+  background-color: #D4aE5b;
+  color: white;
+  text-align: center;
+}
 
+h1 {
+  font-family: system-u
+}
+h2{
+  color: black
+}
+img{
+  width: 500px;
+  border: solid #FFFFFF;
+}
+img:hover{
+ border: dotted black;
+}
+image:click{
+  border: dotted black;
+}
+nav{
+  list-style-type: none;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+li{
+  display: inline;
+  padding: 15px;
+  float: left;
+}
+li:hover {
+  background-color: green;
+}
+a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
 }
